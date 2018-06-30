@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-left: 20px;
+	padding-top: 285px;
+}
+
+.header {
+	height: 1073px;
+	margin-left: auto;
+    margin-right: auto;
+    background: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+.header-caption {
+	padding-top: 95px;
+	font-size: 54px;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.header-text {
+	padding-top: 55px;
+	padding-bottom: 200px;
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 1.933;
+	text-align: center;
+}
+
+.container-section {
+	max-width: 940px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-left: 20px;
+	padding-top: 147px;
+}
+
+h2 {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+h2:before,
+h2:after {
+  background: #3c3c3c;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+    top: 50%;
+  width: 400%;
+}
+
+h2:before {
+  right: 130%;
+}
+
+h2:after {
+  left: 130%;
+}
+
+.container--hidden {
+  overflow: hidden;
+  text-align: center;
+}
+
+.section-caption--black {
+	margin-bottom: 68px;
+	font-size: 56px;
+	color: #3c3c3c;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.section-text--black {
+	font-size: 16px;
+	color: #3c3c3c;
+	line-height: 1.5;
+	text-align: center;
+}
